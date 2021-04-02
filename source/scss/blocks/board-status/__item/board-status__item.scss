@@ -1,0 +1,9 @@
+.board-status__item {
+  background-color: $grey-background-color;
+  padding: 7px 10px 7px 10px;
+  flex-grow: 1;
+}
+
+.board-status__item:not(:last-child) {
+  margin-right: 10px;
+}

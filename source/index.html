@@ -8,9 +8,62 @@
   <!-- endbuild -->
 </head>
 <body>
-<header>
-  <p>any content</p>
-  <p>auto update work</p>
+<header class="header">
+  <h1 class="header__board-name">Kanban board</h1>
+  <section class="board-status">
+    <ul class="board-status__list">
+      <li class="board-status__item">
+        <p class="board-status__content">to do 17</p>
+      </li>
+      <li class="board-status__item">
+        <p class="board-status__content">in progress 6</p>
+      </li>
+      <li class="board-status__item">
+        <p class="board-status__content">blocked 7</p>
+      </li>
+      <li class="board-status__item">
+        <p class="board-status__content">done 23</p>
+      </li>
+    </ul>
+  </section>
 </header>
+<main class="main">
+  <section class="api-tables">
+    <h2 class="api-tables__header visually-hidden">Tables</h2>
+    <input type="checkbox" id="complete-api-data" class="api-tables__open-button visually-hidden">
+    <label for="complete-api-data" class="api-tables__open-label">Complete API Data 5 issues</label>
+    <ul class="api-tables-list">
+      <li class="api-table">
+        <ul class="api-table__steps-list">
+          <li class="step-item">
+            <h3 class="step-item__header">Additional Scopes</h3>
+            <p class="step-item__content">Complete API Data</p>
+            <div class="step-item__metadata">
+              <div class="metadata--status">
+                <div class="metadata__picture-wrapper metadata__picture-wrapper--bookmark">
+                  <img src="img/bookmark@0.5x.webp" alt="bookmark-icon" width="12" height="12" class="metadata__picture metadata__picture--bookmark">
+                  <svg width="12" height="12" class="metadata__picture metadata__picture--complete">
+                    <use xlink:href="./img/svg/sprite.svg#icon-checkbox"></use>
+                  </svg>
+                </div>
+                <svg width="12" height="12" class="metadata__icon metadata__icon--arrow-top">
+                  <use xlink:href="./img/svg/sprite.svg#icon-arrow-top"></use>
+                </svg>
+                <span class="metadata__level metadata__level--1"></span>
+              </div>
+              <div class="metadata__type-wrapper">
+                <p class="metadata__type-content metadata__type-text">BI-177</p>
+                <p class="metadata__type-content metadata__type-mark">AA</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="api-table"></li>
+      <li class="api-table"></li>
+      <li class="api-table"></li>
+    </ul>
+  </section>
+</main>
 </body>
 </html>

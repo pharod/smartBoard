@@ -1,0 +1,35 @@
+.metadata__level {
+  position: relative;
+}
+
+.metadata__level:after {
+  @include normalPseudo();
+  width: 0;
+  height: 6px;
+  background-color: initial;
+  background-repeat: repeat-x;
+  background-image: url("../../../../../img/circle.svg");
+  border: none;
+  top: 6px;
+  left: 6px;
+}
+
+.metadata__level--1:after {
+  width: calc(12px * 1);
+}
+
+.metadata__level--2:after {
+  width: calc(12px * 2);
+}
+
+.metadata__level--3:after {
+  width: calc(12px * 3);
+}
+
+.metadata__level--4:after {
+  width: calc(12px * 4);
+}
+
+.metadata__level--5:after {
+  width: calc(12px * 5);
+}

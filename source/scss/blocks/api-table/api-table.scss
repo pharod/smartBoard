@@ -1,0 +1,9 @@
+.api-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $grey-background-color;
+  min-width: 265px;
+  min-height: 235px;
+  margin: 5px;
+}

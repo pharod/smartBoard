@@ -1,0 +1,12 @@
+.metadata__picture-wrapper img,
+.metadata__picture-wrapper svg {
+  display: none;
+}
+
+.metadata__picture-wrapper--bookmark .metadata__picture--bookmark {
+  display: inline;
+}
+
+.metadata__picture-wrapper--complete .metadata__picture--complete {
+  display: inline;
+}

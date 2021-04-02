@@ -1,0 +1,21 @@
+.metadata__type-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.metadata__type-wrapper .metadata__type-content {
+  @include normalText();
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+.metadata__type-mark {
+  background-color: $orange-mark-color;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}

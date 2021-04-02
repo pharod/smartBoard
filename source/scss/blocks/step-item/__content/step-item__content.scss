@@ -1,0 +1,7 @@
+.step-item__content {
+  @include normalText();
+  background-color: $purple-background-color;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}

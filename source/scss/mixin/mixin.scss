@@ -1,5 +1,5 @@
 @mixin normalText() {
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2;
@@ -18,10 +18,10 @@
 
 @mixin normalButton() {
   @include normalText();
-  color: $main-text-color;
+  color: $white;
   text-transform: uppercase;
   min-height: 48px;
-  border: solid 2px $main-text-color;
+  border: solid 2px $black;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@
 @mixin normalFieldset() {
   @include normalList();
   border: none;
-  color: $main-hearer-text-color;
+  color: $black;
 }
 
 @mixin visuallyHidden() {
@@ -53,7 +53,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 1px solid $main-color;
+  border: 1px solid $black;
 }
 
 @mixin normalForm() {

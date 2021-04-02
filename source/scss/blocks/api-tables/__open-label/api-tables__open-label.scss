@@ -1,0 +1,18 @@
+.api-tables__open-label {
+  color: $grey-text-color;
+  padding-left: 30px;
+  position: relative;
+  margin: 5px;
+}
+
+.api-tables__open-label:before {
+  @include normalPseudo();
+  transform: rotate(-45deg);
+  left: 5px;
+  top: 2px;
+  border: none;
+  border-bottom: 2px solid $grey-text-color;
+  border-left: 2px solid $grey-text-color;
+  width: 10px;
+  height: 10px;
+}

@@ -1,1 +1,11 @@
-@import "blocks/board/board";
+@import "variables/var";
+@import "mixin/mixin";
+@import "fonts";
+@import "base";
+@import "blocks/header/index";
+@import "blocks/board-status/index";
+@import "blocks/main/index";
+@import "blocks/api-tables-list/api-tables-list";
+@import "blocks/api-tables/index";
+@import "blocks/api-table/index";
+@import "blocks/step-item/index";

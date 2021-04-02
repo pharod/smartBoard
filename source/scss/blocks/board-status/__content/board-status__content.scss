@@ -1,0 +1,4 @@
+.board-status__content {
+  @include normalText();
+  text-transform: uppercase;
+}

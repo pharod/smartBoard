@@ -61,7 +61,7 @@
     "source/scss/**/*.{sass,scss}"
   ],
   "engines": {
-    "node": "8.16"
+    "node": "v14.16.0"
   },
   "dependencies": {
     "del": "^5.0.0",

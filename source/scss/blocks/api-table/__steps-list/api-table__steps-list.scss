@@ -1,0 +1,6 @@
+.api-table__steps-list {
+  @include normalList();
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
