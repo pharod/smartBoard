@@ -1,11 +1,11 @@
-.api-tables__open-label {
+.tables__open-label {
   color: $grey-text-color;
   padding-left: 30px;
   position: relative;
   margin: 5px;
 }
 
-.api-tables__open-label:before {
+.tables__open-label:before {
   @include normalPseudo();
   transform: rotate(-45deg);
   left: 5px;
